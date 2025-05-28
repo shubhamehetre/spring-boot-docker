@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringBootDockerApplication {
 	@GetMapping("/message")
 	public String getResult(){
+		System.out.println("Hello");
 		return "Working fine";
 	}
 
