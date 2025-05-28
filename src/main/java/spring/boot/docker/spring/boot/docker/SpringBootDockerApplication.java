@@ -11,6 +11,7 @@ public class SpringBootDockerApplication {
 	@GetMapping("/message")
 	public String getResult(){
 		System.out.println("Hello");
+		System.out.println("Hello 2");
 		return "Working fine";
 	}
 
